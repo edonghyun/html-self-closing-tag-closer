@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:html-self-closing-tags-closer.helloWorld"
+		"onCommand:html-self-closing-tags-closer.closeUnclosedSelfClosingHtmlTags"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "html-self-closing-tags-closer.helloWorld",
-				"title": "Hello World"
+				"command": "html-self-closing-tags-closer.closeUnclosedSelfClosingHtmlTags",
+				"title": "html-self-closing-tags-closer/close unclosed self-closingHtmltags"
 			}
 		]
 	},
